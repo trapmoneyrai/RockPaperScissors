@@ -10,40 +10,33 @@ while True:
         player = input("Rock, paper or scissors?: ").lower()
 
     if player == cpu:
-        print("cpu: ", cpu)
-        print("Player: ", player)
+        print("Player: ", player + ". " + "CPU: ", cpu)
         print("Tie!")
         print("It's either win or lose. Play again.")
     elif player == "rock":
         if cpu == "paper":
-            print("cpu: ", cpu)
-            print("Player: ", player)
+            print("Player: ", player + ". " + "CPU: ", cpu)
             print("You lost.")
             break
         if cpu == "scissors":
-            print("cpu: ", cpu)
-            print("Player: ", player)
+            print("Player: ", player + ". " + "CPU: ", cpu)
             print("Winner.")
             break
     elif player == "scissors":
         if cpu == "rock":
-            print("cpu: ", cpu)
-            print("Player: ", player)
+            print("Player: ", player + ". " + "CPU: ", cpu)
             print("You lost.")
             break
         if cpu == "paper":
-            print("cpu: ", cpu)
-            print("Player: ", player)
+            print("Player: ", player + ". " + "CPU: ", cpu)
             print("Winner.")
             break
     elif player == "paper":
         if cpu == "scissors":
-            print("cpu: ", cpu)
-            print("Player: ", player)
+            print("Player: ", player + ". " + "CPU: ", cpu)
             print("You lost.")
             break
         if cpu == "rock":
-            print("cpu: ", cpu)
-            print("Player: ", player)
+            print("Player: ", player + ". " + "CPU: ", cpu)
             print("Winner.")
             break
